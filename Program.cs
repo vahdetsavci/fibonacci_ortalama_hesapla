@@ -1,11 +1,10 @@
-﻿using System;
-
-namespace fibonacci_ortalama_hesapla;
+﻿namespace fibonacci_ortalama_hesapla;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        KullaniciArayuz KA = new KullaniciArayuz();
+        KA.Giris();
     }
 }
